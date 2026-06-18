@@ -1,4 +1,4 @@
-const API_BASE = 'http://127.0.0.1:8000/api'
+const API_BASE = 'https://nayepankh-ai-companion.onrender.com/api'
 
 function getToken(): string | null {
   return localStorage.getItem('token')
